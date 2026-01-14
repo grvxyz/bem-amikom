@@ -18,6 +18,7 @@ Route::get('/', [PublicController::class, 'index'])->name('home');
 
 Route::post('/aspirasi', [PublicController::class, 'storeAspirasi'])
     ->name('aspirasi.public.store');
+    
 
 /*
 |--------------------------------------------------------------------------
