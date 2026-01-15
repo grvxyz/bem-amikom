@@ -1,12 +1,13 @@
-<header class="bg-[#6e1423] text-white sticky top-0 z-50 shadow">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center">
+<header class="bg-[#6e1423] text-white sticky top-0 z-50 shadow overflow-visible">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
 
         {{-- LOGO --}}
-        <a href="/" class="flex items-center">
+        <a href="/" class="relative flex items-center shrink-0">
             <img 
-                src="{{ asset('storage/image/pojok_kiri_atas.png') }}" 
+                src="{{ asset('storage/image/logo.png') }}" 
                 alt="Logo BEM AMIKOM"
-                class="h-16 md:h-15 w-auto object-contain"
+                class="h-50% max-w-[200px] w-auto object-contain -my-4"
+
             >
         </a>
 
@@ -22,17 +23,18 @@
             </a>
         </nav>
 
-        {{-- MOBILE BUTTON --}}
-        <button id="menuBtn"
-                class="md:hidden text-2xl ml-auto focus:outline-none"
-                aria-label="Toggle Menu">
+        {{-- MOBILE MENU BUTTON --}}
+        <button 
+            id="menuBtn"
+            class="md:hidden text-2xl ml-4 focus:outline-none"
+            aria-label="Toggle Menu">
             ☰
         </button>
     </div>
 
     {{-- MOBILE MENU --}}
     <div id="mobileMenu" class="hidden md:hidden bg-[#6e1423] border-t border-white/20">
-        <nav class="flex flex-col px-6 py-4 gap-6 text-sm">
+        <nav class="flex flex-col px-6 py-4 gap-4 text-sm">
             <a href="/" class="hover:underline">Beranda</a>
             <a href="#profile" class="hover:underline">Profil</a>
             <a href="/berita" class="hover:underline">Berita</a>
