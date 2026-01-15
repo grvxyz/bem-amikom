@@ -18,7 +18,10 @@ Route::get('/', [PublicController::class, 'index'])->name('home');
 
 Route::post('/aspirasi', [PublicController::class, 'storeAspirasi'])
     ->name('aspirasi.public.store');
-    
+
+Route::get('/tentang-kami', function () {
+    return view('public.tentang-kami');
+})->name('tentang-kami');
 
 /*
 |--------------------------------------------------------------------------

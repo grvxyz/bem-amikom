@@ -14,7 +14,7 @@
         {{-- DESKTOP MENU --}}
         <nav class="hidden md:flex items-center gap-6 text-sm font-medium ml-auto">
             <a href="/" class="hover:underline">Beranda</a>
-            <a href="#profile" class="hover:underline">Profil</a>
+            <a href="/tentang-kami" class="hover:underline">Tentang Kami</a>
             <a href="/berita" class="hover:underline">Berita</a>
             <a href="#aspirasi" class="hover:underline">Aspirasi</a>
             <a href="/login"
@@ -36,7 +36,7 @@
     <div id="mobileMenu" class="hidden md:hidden bg-[#6e1423] border-t border-white/20">
         <nav class="flex flex-col px-6 py-4 gap-4 text-sm">
             <a href="/" class="hover:underline">Beranda</a>
-            <a href="#profile" class="hover:underline">Profil</a>
+            <a href="/tentang-kami" class="hover:underline">Tentang Kami</a>
             <a href="/berita" class="hover:underline">Berita</a>
             <a href="#aspirasi" class="hover:underline">Aspirasi</a>
             <a href="/login"

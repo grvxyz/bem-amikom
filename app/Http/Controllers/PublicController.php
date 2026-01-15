@@ -10,6 +10,9 @@ use Illuminate\Validation\ValidationException;
 
 class PublicController extends Controller
 {
+    /**
+     * HALAMAN HOME
+     */
     public function index()
     {
         // Event aktif (hero slider)
@@ -25,7 +28,15 @@ class PublicController extends Controller
     }
 
     /**
-     * STORE ASPIRASI (AJAX / REALTIME)
+     * HALAMAN TENTANG KAMI
+     */
+    public function tentangKami()
+    {
+        return view('public.tentang-kami');
+    }
+
+    /**
+     * STORE ASPIRASI (AJAX)
      */
     public function storeAspirasi(Request $request)
     {
@@ -45,7 +56,6 @@ class PublicController extends Controller
 
             Aspirasi::create($validated);
 
-            // ✅ RESPONSE JSON (TANPA RELOAD)
             return response()->json([
                 'status' => 'success',
                 'message' => 'Aspirasi berhasil dikirim. Terima kasih 🙏'
@@ -53,7 +63,6 @@ class PublicController extends Controller
 
         } catch (ValidationException $e) {
 
-            // ❌ VALIDATION ERROR (SHAKE FORM)
             return response()->json([
                 'status' => 'error',
                 'message' => $e->validator->errors()->first()
@@ -61,3 +70,4 @@ class PublicController extends Controller
         }
     }
 }
+    
