@@ -69,10 +69,10 @@
         {{-- JUDUL --}}
         <div class="text-center mb-20 animate-on-scroll">
             <h2 class="text-3xl font-bold text-[#6e1423]">
-                Struktur Kabinet
+                Salam Pimpinan
             </h2>
             <p class="text-gray-600 mt-4">
-                Susunan Pengurus Kabinet Daya Juang
+                Kuat Dalam Persatuan, Tangguh Dalam Perjuangan
             </p>
         </div>
 
@@ -190,6 +190,129 @@
 
     </div>
 </section>
+{{-- STRUKTUR KABINET --}}
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+
+        {{-- JUDUL --}}
+        <div class="text-center mb-14 animate-on-scroll">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-[#6e1423]">
+                Struktur <span class="text-gray-800">Kabinet</span>
+            </h2>
+            <p class="mt-4 text-lg text-gray-600">
+                Pilar pergerakan Badan Eksekutif Mahasiswa Universitas AMIKOM Yogyakarta
+            </p>
+        </div>
+
+        {{-- ACCORDION --}}
+        <div class="max-w-4xl mx-auto space-y-5" id="struktur-accordion">
+
+            {{-- KOMINFO --}}
+            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
+                               text-lg font-bold flex justify-between items-center">
+                    <span>Komunikasi dan Informasi</span>
+                    <span class="accordion-icon transition-transform">⌄</span>
+                </button>
+
+                <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
+                    <div class="p-6 space-y-4">
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Media dan Informasi</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Bertanggung jawab dalam pengelolaan informasi,
+                                media sosial, serta publikasi kegiatan BEM AMIKOM.
+                            </p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Hubungan Masyarakat</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Menjalin relasi strategis dengan organisasi internal
+                                dan eksternal kampus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- PSDM --}}
+            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
+                               text-lg font-bold flex justify-between items-center">
+                    <span>Pengembangan Sumber Daya Mahasiswa</span>
+                    <span class="accordion-icon transition-transform">⌄</span>
+                </button>
+
+                <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
+                    <div class="p-6 space-y-4">
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Kaderisasi</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Mengelola sistem kaderisasi dan pengembangan
+                                kepemimpinan mahasiswa.
+                            </p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Pengembangan Potensi</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Mendorong potensi akademik dan non-akademik mahasiswa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- ADKESMA --}}
+            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
+                               text-lg font-bold flex justify-between items-center">
+                    <span>Advokasi dan Kesejahteraan Mahasiswa</span>
+                    <span class="accordion-icon transition-transform">⌄</span>
+                </button>
+
+                <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
+                    <div class="p-6 space-y-4">
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Advokasi</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Mengawal aspirasi dan kebijakan yang berkaitan
+                                dengan hak mahasiswa.
+                            </p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Kesejahteraan</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Fokus pada kesejahteraan akademik dan sosial mahasiswa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- PERGERAKAN --}}
+            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
+                               text-lg font-bold flex justify-between items-center">
+                    <span>Pergerakan dan Kajian Strategis</span>
+                    <span class="accordion-icon transition-transform">⌄</span>
+                </button>
+
+                <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
+                    <div class="p-6 space-y-4">
+                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
+                            <h5 class="font-semibold text-[#6e1423]">Kajian Isu</h5>
+                            <p class="text-sm text-gray-600 mt-1">
+                                Mengkaji isu kampus, daerah, dan nasional
+                                sebagai dasar gerakan mahasiswa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 
@@ -256,10 +379,15 @@
     opacity: 1;
     transform: translateY(0);
 }
+.accordion-content {
+    transition: max-height 0.5s ease;
+}
 </style>
-
 <script>
-const observer = new IntersectionObserver(entries => {
+/* ===============================
+ANIMATE ON SCROLL
+=============================== */
+const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
@@ -269,6 +397,37 @@ const observer = new IntersectionObserver(entries => {
 
 document.querySelectorAll('.animate-on-scroll')
     .forEach(el => observer.observe(el));
+
+
+/* ===============================
+ACCORDION
+=============================== */
+document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+        const item = header.closest('.accordion-item');
+        const content = item.querySelector('.accordion-content');
+        const icon = header.querySelector('.accordion-icon');
+
+        const isOpen = content.style.maxHeight;
+
+        // Tutup semua accordion
+        document.querySelectorAll('.accordion-content').forEach(c => {
+            c.style.maxHeight = null;
+        });
+
+        document.querySelectorAll('.accordion-icon').forEach(i => {
+            i.style.transform = 'rotate(0deg)';
+        });
+
+        // Toggle accordion yang diklik
+        if (!isOpen) {
+            content.style.maxHeight = content.scrollHeight + "px";
+            icon.style.transform = 'rotate(180deg)';
+        }
+    });
+});
 </script>
+
+
 
 @endsection
