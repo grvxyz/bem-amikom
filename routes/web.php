@@ -16,8 +16,13 @@ use App\Http\Controllers\AdminDashboardController;
 */
 Route::get('/', [PublicController::class, 'index'])->name('home');
 
-Route::post('/aspirasi', [PublicController::class, 'storeAspirasi'])
-    ->name('aspirasi.public.store');
+/* === ASPIRASI PUBLIC === */
+Route::get('/aspirasi', function () {
+    return view('public.aspirasi');
+})->name('aspirasi');
+
+Route::post('/aspirasi', [AspirasiController::class, 'store'])
+    ->name('aspirasi.store');
 
 Route::get('/tentang-kami', function () {
     return view('public.tentang-kami');
@@ -56,8 +61,13 @@ Route::middleware('auth')->prefix('admin')->group(function () {
     Route::resource('berita_acara', BeritaAcaraController::class)
         ->except(['create', 'edit', 'show']);
 
-    Route::get('/aspirasi', [AspirasiController::class, 'index'])->name('aspirasi.index');
-    Route::post('/aspirasi', [AspirasiController::class, 'store'])->name('aspirasi.store');
-    Route::put('/aspirasi/{aspirasi}', [AspirasiController::class, 'update'])->name('aspirasi.update');
-    Route::delete('/aspirasi/{aspirasi}', [AspirasiController::class, 'destroy'])->name('aspirasi.destroy');
+    /* === ASPIRASI ADMIN === */
+    Route::get('/aspirasi', [AspirasiController::class, 'index'])
+        ->name('aspirasi.index');
+
+    Route::put('/aspirasi/{aspirasi}', [AspirasiController::class, 'update'])
+        ->name('aspirasi.update');
+
+    Route::delete('/aspirasi/{aspirasi}', [AspirasiController::class, 'destroy'])
+        ->name('aspirasi.destroy');
 });

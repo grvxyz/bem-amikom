@@ -107,7 +107,7 @@
 </section>
 
 {{-- ================= ASPIRASI ================= --}}
-<section id="aspirasi" class="py-20 bg-gray-100">
+<section id="aspirasi" class="py-16 bg-white">
     <div class="max-w-2xl mx-auto px-6">
 
         <h2 class="text-2xl font-bold text-center text-[#6e1423] mb-2">
@@ -180,7 +180,7 @@ form.addEventListener('submit', async e => {
     e.preventDefault();
     msg.classList.add('hidden');
 
-    const res = await fetch("{{ route('aspirasi.public.store') }}", {
+    const res = await fetch("{{ route('aspirasi.store') }}", {
         method: "POST",
         headers: {
             "X-CSRF-TOKEN": "{{ csrf_token() }}",

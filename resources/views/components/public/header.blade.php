@@ -16,7 +16,7 @@
             <a href="/" class="hover:underline">Beranda</a>
             <a href="/tentang-kami" class="hover:underline">Tentang Kami</a>
             <a href="/berita" class="hover:underline">Berita</a>
-            <a href="#aspirasi" class="hover:underline">Aspirasi</a>
+            <a href="/aspirasi" class="hover:underline">Aspirasi</a>
             <a href="/login"
                class="bg-white text-[#6e1423] px-4 py-1.5 rounded font-semibold hover:bg-gray-100 transition">
                 Admin

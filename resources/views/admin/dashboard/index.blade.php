@@ -17,25 +17,6 @@
         </p>
     </div>
 
-    {{-- FILTER PERIODE --}}
-    <div class="bg-white p-6 rounded shadow">
-        <form method="GET" class="flex flex-wrap gap-4 items-end">
-            <div>
-                <label class="block text-sm text-gray-600 mb-1">Dari</label>
-                <input type="date" name="start_date" value="{{ request('start_date') }}"
-                    class="border rounded px-3 py-2 text-sm">
-            </div>
-            <div>
-                <label class="block text-sm text-gray-600 mb-1">Sampai</label>
-                <input type="date" name="end_date" value="{{ request('end_date') }}"
-                    class="border rounded px-3 py-2 text-sm">
-            </div>
-            <button class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded text-sm">
-                Filter
-            </button>
-        </form>
-    </div>
-
     {{-- STATISTIK --}}
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-white p-6 rounded shadow">

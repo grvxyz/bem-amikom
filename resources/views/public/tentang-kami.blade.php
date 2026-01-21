@@ -190,12 +190,12 @@
 
     </div>
 </section>
-{{-- STRUKTUR KABINET --}}
+{{-- ================= STRUKTUR KABINET ================= --}}
 <section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
 
         {{-- JUDUL --}}
-        <div class="text-center mb-14 animate-on-scroll">
+        <div class="text-center mb-14">
             <h2 class="text-3xl md:text-5xl font-extrabold text-[#6e1423]">
                 Struktur <span class="text-gray-800">Kabinet</span>
             </h2>
@@ -205,107 +205,190 @@
         </div>
 
         {{-- ACCORDION --}}
-        <div class="max-w-4xl mx-auto space-y-5" id="struktur-accordion">
+        <div class="max-w-4xl mx-auto space-y-6" id="struktur-accordion">
 
-            {{-- KOMINFO --}}
-            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
-                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
-                               text-lg font-bold flex justify-between items-center">
-                    <span>Komunikasi dan Informasi</span>
-                    <span class="accordion-icon transition-transform">⌄</span>
+            {{-- KEMENKOAN KEBIJAKAN & KEMAHASISWAAN --}}
+            <div class="accordion-item border rounded-xl shadow overflow-hidden">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white font-bold flex justify-between items-center">
+                    <span>Kemenkoan Kebijakan & Kemahasiswaan</span>
+                    <span class="accordion-icon">⌄</span>
                 </button>
-
                 <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
-                    <div class="p-6 space-y-4">
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Media dan Informasi</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Bertanggung jawab dalam pengelolaan informasi,
-                                media sosial, serta publikasi kegiatan BEM AMIKOM.
+                    <div class="p-6 space-y-4 text-gray-700 text-sm">
+                        <p>
+                            Kemenkoan ini mengoordinasikan kementerian yang bergerak
+                            dalam ranah kebijakan internal kampus serta dinamika kemahasiswaan.
+                            Fokus utama pada sinergi organisasi mahasiswa, penyelesaian
+                            persoalan internal, serta perjuangan hak dan kesejahteraan mahasiswa.
+                        </p>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Dalam Negeri</h5>
+                            <p class="mt-1">
+                                Menjaga hubungan harmonis antar elemen KM AMIKOM,
+                                menyelesaikan persoalan lembaga mahasiswa, serta merancang
+                                kebijakan strategis internal dan eksternal BEM.
                             </p>
                         </div>
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Hubungan Masyarakat</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Menjalin relasi strategis dengan organisasi internal
-                                dan eksternal kampus.
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Dirjen Bina Administrasi & Keluarga Mahasiswa</h5>
+                            <p class="mt-1">
+                                Melakukan kontrol administratif UKM dan BSO agar
+                                organisasi mahasiswa berjalan tertib dan berkelanjutan.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Dirjen Kebijakan Publik & Politik</h5>
+                            <p class="mt-1">
+                                Menyusun produk hukum internal, mengelola arsip hukum,
+                                serta merancang regulasi tata kelola organisasi yang adil.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Advokasi Kesejahteraan Mahasiswa</h5>
+                            <p class="mt-1">
+                                Menjadi jembatan mahasiswa dengan rektorat dalam
+                                memperjuangkan hak akademik, beasiswa, dan fasilitas kampus.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Kajian Strategis Perguruan Tinggi</h5>
+                            <p class="mt-1">
+                                Pusat riset isu internal kampus dan penyajiannya dalam
+                                bentuk media edukatif berbasis data dan kajian objektif.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            {{-- PSDM --}}
-            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
-                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
-                               text-lg font-bold flex justify-between items-center">
-                    <span>Pengembangan Sumber Daya Mahasiswa</span>
-                    <span class="accordion-icon transition-transform">⌄</span>
+            {{-- KEMENKOAN PMK --}}
+            <div class="accordion-item border rounded-xl shadow overflow-hidden">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white font-bold flex justify-between items-center">
+                    <span>Kemenkoan Pemberdayaan Manusia & Kebudayaan</span>
+                    <span class="accordion-icon">⌄</span>
                 </button>
-
                 <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
-                    <div class="p-6 space-y-4">
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Kaderisasi</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Mengelola sistem kaderisasi dan pengembangan
-                                kepemimpinan mahasiswa.
+                    <div class="p-6 space-y-4 text-sm text-gray-700">
+                        <p>
+                            Berfokus pada pengembangan SDM, nilai spiritual,
+                            kebudayaan, serta inklusivitas mahasiswa agar berkembang
+                            secara holistik akademik dan sosial.
+                        </p>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">PSDM</h5>
+                            <p>Pengembangan potensi mahasiswa melalui pelatihan, workshop,
+                                dan peningkatan soft skill.</p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Agama</h5>
+                            <p>
+                                Fasilitator kegiatan keagamaan dan penjaga harmoni
+                                serta toleransi kehidupan beragama di kampus.
                             </p>
                         </div>
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Pengembangan Potensi</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Mendorong potensi akademik dan non-akademik mahasiswa.
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Pemuda & Olahraga</h5>
+                            <p>
+                                Mengembangkan minat dan bakat mahasiswa di bidang olahraga
+                                dan kegiatan non-akademik.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Pemberdayaan Perempuan</h5>
+                            <p>
+                                Mendorong lingkungan kampus yang aman, setara,
+                                inklusif, serta bebas diskriminasi dan kekerasan.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            {{-- ADKESMA --}}
-            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
-                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
-                               text-lg font-bold flex justify-between items-center">
-                    <span>Advokasi dan Kesejahteraan Mahasiswa</span>
-                    <span class="accordion-icon transition-transform">⌄</span>
+            {{-- KEMENKOAN KOMUNIKASI & INVESTASI KREATIF --}}
+            <div class="accordion-item border rounded-xl shadow overflow-hidden">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white font-bold flex justify-between items-center">
+                    <span>Kemenkoan Komunikasi & Investasi Kreatif</span>
+                    <span class="accordion-icon">⌄</span>
                 </button>
-
                 <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
-                    <div class="p-6 space-y-4">
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Advokasi</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Mengawal aspirasi dan kebijakan yang berkaitan
-                                dengan hak mahasiswa.
+                    <div class="p-6 space-y-4 text-sm text-gray-700">
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Komunikasi & Informasi</h5>
+                            <p>
+                                Mengelola arus informasi, publikasi, dan citra BEM
+                                melalui media digital yang kreatif dan edukatif.
                             </p>
                         </div>
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Kesejahteraan</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Fokus pada kesejahteraan akademik dan sosial mahasiswa.
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Dirjen Digitalisasi Eksekutif</h5>
+                            <p>
+                                Mengembangkan sistem website dan platform digital resmi BEM.
                             </p>
                         </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Dirjen Jejaring & Sosial Media</h5>
+                            <p>
+                                Dokumentasi, pengarsipan, serta pengelolaan sosial media BEM.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Investasi Kreatif</h5>
+                            <p>
+                                Wadah kewirausahaan, ekonomi kreatif,
+                                dan kolaborasi strategis dengan mitra eksternal.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-            {{-- PERGERAKAN --}}
-            <div class="accordion-item border rounded-xl shadow-sm overflow-hidden animate-on-scroll">
-                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white
-                               text-lg font-bold flex justify-between items-center">
-                    <span>Pergerakan dan Kajian Strategis</span>
-                    <span class="accordion-icon transition-transform">⌄</span>
+            {{-- KEMENKOAN PERGERAKAN SOSIAL & POLITIK --}}
+            <div class="accordion-item border rounded-xl shadow overflow-hidden">
+                <button class="accordion-header w-full px-6 py-5 bg-[#6e1423] text-white font-bold flex justify-between items-center">
+                    <span>Kemenkoan Pergerakan Sosial & Politik</span>
+                    <span class="accordion-icon">⌄</span>
                 </button>
-
                 <div class="accordion-content max-h-0 overflow-hidden bg-gray-50 transition-all duration-500">
-                    <div class="p-6 space-y-4">
-                        <div class="bg-white p-4 rounded-lg border hover:bg-gray-50">
-                            <h5 class="font-semibold text-[#6e1423]">Kajian Isu</h5>
-                            <p class="text-sm text-gray-600 mt-1">
-                                Mengkaji isu kampus, daerah, dan nasional
-                                sebagai dasar gerakan mahasiswa.
+                    <div class="p-6 space-y-4 text-sm text-gray-700">
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Sosial Masyarakat</h5>
+                            <p>
+                                Pengabdian masyarakat melalui program sosial,
+                                pendidikan, dan penguatan komunitas.
                             </p>
                         </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Aksi & Propaganda</h5>
+                            <p>
+                                Edukasi dan kampanye isu sosial-politik
+                                berbasis riset dan publikasi kreatif.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h5 class="font-semibold text-[#6e1423]">Kementerian Luar Negeri</h5>
+                            <p>
+                                Representasi resmi BEM di tingkat regional
+                                dan nasional melalui jejaring eksternal.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -316,41 +399,222 @@
 
 
 
-{{-- VISI MISI --}}
+
+{{-- ================= VISI MISI ================= --}}
+{{-- ================= VISI & MISI ================= --}}
 <section class="py-24 bg-white">
-    <div class="max-w-5xl mx-auto px-6">
+    <div class="max-w-6xl mx-auto px-6">
 
-        <div class="text-center mb-16 animate-on-scroll">
-            <h2 class="text-3xl font-bold text-[#6e1423]">
-                Visi & Misi
-            </h2>
-        </div>
+        <div class="grid lg:grid-cols-2 gap-8 items-start">
 
-        <div class="grid md:grid-cols-2 gap-16">
+            {{-- VISI --}}
+            <div class="bg-[#6e1423] text-white p-8 rounded-2xl shadow-lg
+                        flex flex-col justify-center h-full"
+                 data-aos="zoom-in">
 
-            <div class="animate-on-scroll">
-                <h3 class="text-2xl font-semibold mb-4">Visi</h3>
-                <p class="text-gray-600 leading-relaxed">
-                    Mewujudkan BEM AMIKOM sebagai pusat gerakan
-                    mahasiswa yang progresif, sinergis,
-                    dan berkontribusi aktif bagi kampus
-                    serta masyarakat.
-                </p>
+                <h3 class="text-2xl font-bold mb-4 text-center">
+                    Visi
+                </h3>
+
+                <blockquote
+                    class="text-center text-lg sm:text-xl font-semibold
+                           leading-relaxed italic">
+                    “BEM Universitas AMIKOM Yogyakarta menjadi organisasi yang
+                    berdaya dan berbudaya untuk mewujudkan kebermanfaatan nyata
+                    bagi Keluarga Mahasiswa dan Indonesia dengan berlandaskan
+                    Ketuhanan Yang Maha Esa.”
+                </blockquote>
             </div>
 
-            <div class="animate-on-scroll">
-                <h3 class="text-2xl font-semibold mb-4">Misi</h3>
-                <ul class="list-disc list-inside space-y-3 text-gray-600">
-                    <li>Mengawal aspirasi mahasiswa</li>
-                    <li>Mendorong pengembangan potensi</li>
-                    <li>Membangun gerakan kolaboratif</li>
-                    <li>Menciptakan program kerja berdampak</li>
-                </ul>
+            {{-- MISI --}}
+            <div class="space-y-4"
+                 data-aos="fade-left"
+                 data-aos-delay="200">
+
+                <h3 class="text-2xl font-bold mb-4 text-gray-800
+                           text-center lg:text-left">
+                    Misi
+                </h3>
+
+                <div class="space-y-3" id="misi-accordion">
+
+                    {{-- ITEM 1 --}}
+                    <div class="bg-white p-4 rounded-xl shadow-lg">
+                        <button class="accordion-button w-full flex items-start
+                                       text-left space-x-4">
+
+                            <div class="flex-shrink-0 w-10 h-10
+                                        bg-[#6e1423]/10 text-[#6e1423]
+                                        rounded-lg flex items-center justify-center">
+                                ✓
+                            </div>
+
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <h4 class="font-bold text-gray-800 text-md">
+                                        Ruang Pengembangan Inklusif
+                                    </h4>
+                                    <span class="accordion-icon sm:hidden">⌄</span>
+                                </div>
+
+                                <p class="text-gray-600 text-sm mt-1 hidden sm:block">
+                                    Menjadikan BEM AMIKOM sebagai ruang pengembangan
+                                    inklusif dengan berfokus pada Tri Dharma Perguruan Tinggi.
+                                </p>
+                            </div>
+                        </button>
+
+                        <div class="accordion-content sm:hidden">
+                            <p class="text-gray-600 text-sm pt-2 mt-2 border-t">
+                                Menjadikan BEM AMIKOM sebagai ruang pengembangan
+                                inklusif dengan berfokus pada Tri Dharma Perguruan Tinggi.
+                            </p>
+                        </div>
+                    </div>
+
+                    {{-- ITEM 2 --}}
+                    <div class="bg-white p-4 rounded-xl shadow-lg">
+                        <button class="accordion-button w-full flex items-start
+                                       text-left space-x-4">
+
+                            <div class="flex-shrink-0 w-10 h-10
+                                        bg-[#6e1423]/10 text-[#6e1423]
+                                        rounded-lg flex items-center justify-center">
+                                ✓
+                            </div>
+
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <h4 class="font-bold text-gray-800 text-md">
+                                        Media Aspirasi Mahasiswa
+                                    </h4>
+                                    <span class="accordion-icon sm:hidden">⌄</span>
+                                </div>
+
+                                <p class="text-gray-600 text-sm mt-1 hidden sm:block">
+                                    Menjadikan BEM AMIKOM sebagai media aspiratif
+                                    dalam pengadvokasian kesejahteraan mahasiswa.
+                                </p>
+                            </div>
+                        </button>
+
+                        <div class="accordion-content sm:hidden">
+                            <p class="text-gray-600 text-sm pt-2 mt-2 border-t">
+                                Menjadikan BEM AMIKOM sebagai media aspiratif
+                                dalam pengadvokasian kesejahteraan mahasiswa.
+                            </p>
+                        </div>
+                    </div>
+
+                    {{-- ITEM 3 --}}
+                    <div class="bg-white p-4 rounded-xl shadow-lg">
+                        <button class="accordion-button w-full flex items-start
+                                       text-left space-x-4">
+
+                            <div class="flex-shrink-0 w-10 h-10
+                                        bg-[#6e1423]/10 text-[#6e1423]
+                                        rounded-lg flex items-center justify-center">
+                                ✓
+                            </div>
+
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <h4 class="font-bold text-gray-800 text-md">
+                                        Ruang Kreatif dan Inovatif
+                                    </h4>
+                                    <span class="accordion-icon sm:hidden">⌄</span>
+                                </div>
+
+                                <p class="text-gray-600 text-sm mt-1 hidden sm:block">
+                                    Mendorong potensi seluruh civitas akademik
+                                    melalui ruang yang kreatif dan inovatif.
+                                </p>
+                            </div>
+                        </button>
+
+                        <div class="accordion-content sm:hidden">
+                            <p class="text-gray-600 text-sm pt-2 mt-2 border-t">
+                                Mendorong potensi seluruh civitas akademik
+                                melalui ruang yang kreatif dan inovatif.
+                            </p>
+                        </div>
+                    </div>
+
+                    {{-- ITEM 4 --}}
+                    <div class="bg-white p-4 rounded-xl shadow-lg">
+                        <button class="accordion-button w-full flex items-start
+                                       text-left space-x-4">
+
+                            <div class="flex-shrink-0 w-10 h-10
+                                        bg-[#6e1423]/10 text-[#6e1423]
+                                        rounded-lg flex items-center justify-center">
+                                ✓
+                            </div>
+
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <h4 class="font-bold text-gray-800 text-md">
+                                        Nilai Kebudayaan & Keagamaan
+                                    </h4>
+                                    <span class="accordion-icon sm:hidden">⌄</span>
+                                </div>
+
+                                <p class="text-gray-600 text-sm mt-1 hidden sm:block">
+                                    Meningkatkan pemahaman dan penghargaan terhadap
+                                    nilai kebudayaan dan keagamaan melalui kolaborasi kreatif.
+                                </p>
+                            </div>
+                        </button>
+
+                        <div class="accordion-content sm:hidden">
+                            <p class="text-gray-600 text-sm pt-2 mt-2 border-t">
+                                Meningkatkan pemahaman dan penghargaan terhadap
+                                nilai kebudayaan dan keagamaan melalui kolaborasi kreatif.
+                            </p>
+                        </div>
+                    </div>
+
+                    {{-- ITEM 5 --}}
+                    <div class="bg-white p-4 rounded-xl shadow-lg">
+                        <button class="accordion-button w-full flex items-start
+                                       text-left space-x-4">
+
+                            <div class="flex-shrink-0 w-10 h-10
+                                        bg-[#6e1423]/10 text-[#6e1423]
+                                        rounded-lg flex items-center justify-center">
+                                ✓
+                            </div>
+
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <h4 class="font-bold text-gray-800 text-md">
+                                        Perluasan Jejaring Strategis
+                                    </h4>
+                                    <span class="accordion-icon sm:hidden">⌄</span>
+                                </div>
+
+                                <p class="text-gray-600 text-sm mt-1 hidden sm:block">
+                                    Memperluas jejaring sebagai langkah progresif
+                                    untuk mewujudkan kebermanfaatan nyata.
+                                </p>
+                            </div>
+                        </button>
+
+                        <div class="accordion-content sm:hidden">
+                            <p class="text-gray-600 text-sm pt-2 mt-2 border-t">
+                                Memperluas jejaring sebagai langkah progresif
+                                untuk mewujudkan kebermanfaatan nyata.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </div>
     </div>
 </section>
+
 
 {{-- NILAI --}}
 <section class="py-24 bg-gray-50">
@@ -423,6 +687,31 @@ document.querySelectorAll('.accordion-header').forEach(header => {
         if (!isOpen) {
             content.style.maxHeight = content.scrollHeight + "px";
             icon.style.transform = 'rotate(180deg)';
+        }
+    });
+});
+/* ===============================
+ACCORDION MISI (MOBILE)
+=============================== */
+document.querySelectorAll('#misi-accordion .accordion-button')
+    .forEach(button => {
+
+    button.addEventListener('click', () => {
+        const item = button.closest('.bg-white');
+        const content = item.querySelector('.accordion-content');
+        const icon = button.querySelector('.accordion-icon');
+
+        // Tutup semua
+        document.querySelectorAll('#misi-accordion .accordion-content')
+            .forEach(c => c.classList.add('hidden'));
+
+        document.querySelectorAll('#misi-accordion .accordion-icon')
+            .forEach(i => i && (i.style.transform = 'rotate(0deg)'));
+
+        // Toggle aktif
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            if (icon) icon.style.transform = 'rotate(180deg)';
         }
     });
 });
